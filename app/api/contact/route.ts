@@ -34,7 +34,7 @@ export async function POST(request: Request) {
           <ul>
             <li>Browse our <a href="https://zanibonilighting.com/products">product collections</a></li>
             <li>Call us at +1 (800) 555-1234</li>
-            <li>Email us at info@zanibonilighting.com</li>
+            <li>Email us at shuttle876@gmail.com</li>
           </ul>
 
           <p style="margin-top: 30px;">Best regards,<br/>The Zaniboni Lighting Team</p>

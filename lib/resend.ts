@@ -9,7 +9,7 @@ export const resend = new Resend(process.env.RESEND_API_KEY)
 // Email configuration
 export const EMAIL_CONFIG = {
   from: "Zaniboni Lighting <noreply@zanibonilighting.com>",
-  replyTo: "info@zanibonilighting.com",
+  replyTo: "shuttle876@gmail.com",
   // Update this to your actual email where you want to receive notifications
-  notificationEmail: "info@zanibonilighting.com",
+  notificationEmail: "shuttle876@gmail.com",
 }
