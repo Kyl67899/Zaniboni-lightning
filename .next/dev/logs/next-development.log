@@ -1,0 +1,4677 @@
+[00:00:03.018] Server  LOG     
+[00:00:03.018] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:03.018] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:03.018] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:03.018] Server  LOG     
+[00:00:03.018] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:03.018] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:03.018] Server  LOG     
+[00:00:03.035] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:03.118] Server  LOG      ✓ Ready in 2.9s
+[00:05:50.179] Server  LOG      ✓ Compiled in 24ms
+[00:05:51.114] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.114] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.114] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.114] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:16:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:16:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:9:1
+Module not found: Can't resolve '../../shared/lib/router/utils/app-paths'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:9:1
+Module not found: Can't resolve '../../shared/lib/router/utils/app-paths'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:21:1
+Module not found: Can't resolve '../after/builtin-request-context'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:21:1
+Module not found: Can't resolve '../after/builtin-request-context'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.115] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.123] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.124] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.124] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.124] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.137] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.137] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.137] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.137] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.139] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:18:1
+Module not found: Can't resolve '../lib/trace/constants'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.139] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:18:1
+Module not found: Can't resolve '../lib/trace/constants'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.139] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.139] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.140] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.140] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.140] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.140] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.145] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.146] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.146] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.146] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.146] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.146] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.146] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.146] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.147] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.147] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.147] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.147] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.147] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.148] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.148] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.148] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:51.156] Server  LOG      ✓ Compiled in 65ms
+[00:05:52.239] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.240] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.240] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.241] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.241] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.241] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:10:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.241] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:16:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.242] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:16:1
+Module not found: Can't resolve '../../client/components/app-router-headers'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.242] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:1:1
+Module not found: Can't resolve '../../page-path/ensure-leading-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.245] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:1:1
+Module not found: Can't resolve '../../page-path/ensure-leading-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.245] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.250] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.252] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.252] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.252] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.255] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:21:1
+Module not found: Can't resolve '../after/builtin-request-context'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.255] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:21:1
+Module not found: Can't resolve '../after/builtin-request-context'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.255] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.255] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.255] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.255] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.259] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.259] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.259] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.259] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.264] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.264] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.264] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.264] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.266] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:18:1
+Module not found: Can't resolve '../lib/trace/constants'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.266] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:18:1
+Module not found: Can't resolve '../lib/trace/constants'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.267] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.267] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.267] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.268] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.269] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.269] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.269] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.269] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.270] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.270] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.276] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.276] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.276] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.279] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.279] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.279] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.279] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.281] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.281] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.282] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.282] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.282] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.284] Server  LOG      ✓ Compiled in 41ms
+[00:05:52.783] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:1:1
+Module not found: Can't resolve '../../page-path/ensure-leading-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.783] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:1:1
+Module not found: Can't resolve '../../page-path/ensure-leading-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.784] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.784] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.784] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.784] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.784] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.784] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:21:1
+Module not found: Can't resolve '../after/builtin-request-context'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:21:1
+Module not found: Can't resolve '../after/builtin-request-context'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:18:1
+Module not found: Can't resolve '../lib/trace/constants'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:18:1
+Module not found: Can't resolve '../lib/trace/constants'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.788] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.788] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.788] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.788] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.788] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.789] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.789] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.789] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.789] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.789] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.789] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.789] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.816] Server  LOG      ✓ Compiled in 42ms
+[00:05:52.988] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:1:1
+Module not found: Can't resolve '../../page-path/ensure-leading-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.988] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:1:1
+Module not found: Can't resolve '../../page-path/ensure-leading-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.988] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.988] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.988] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.988] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.988] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.988] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.989] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.989] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.994] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.994] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.994] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:18:1
+Module not found: Can't resolve '../lib/trace/constants'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:18:1
+Module not found: Can't resolve '../lib/trace/constants'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.996] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.996] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.996] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.996] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.996] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.996] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.996] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.997] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.997] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.997] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.997] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.997] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:52.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:53.019] Server  LOG      ✓ Compiled in 53ms
+[00:05:54.313] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:1:1
+Module not found: Can't resolve '../../page-path/ensure-leading-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.314] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:1:1
+Module not found: Can't resolve '../../page-path/ensure-leading-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.314] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.314] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.314] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.314] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.314] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.314] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.314] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.314] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.315] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.315] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.315] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.315] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.315] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.315] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.316] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.316] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.317] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.318] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.319] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.320] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.321] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.321] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.321] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.322] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.322] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.322] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.322] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.322] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.322] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.324] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.324] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.324] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.325] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.325] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.325] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.325] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.326] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.326] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.326] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.504] Server  LOG      ✓ Compiled in 159ms
+[00:05:54.543] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.543] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.543] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.543] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.543] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.543] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.544] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.544] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.544] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.544] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.544] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.544] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.544] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.544] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.545] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.545] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.545] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.545] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.545] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.545] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.545] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:1:1
+Module not found: Can't resolve './error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.545] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:3:1
+Module not found: Can't resolve './spec-extension/fetch-event'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.546] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.547] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.547] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.547] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.547] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.547] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.572] Server  LOG      ✓ Compiled in 59ms
+[00:05:54.609] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.609] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.609] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.609] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.609] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.609] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.609] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.610] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.610] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.610] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.610] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.610] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.610] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:20:1
+Module not found: Can't resolve './get-edge-preview-props'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.611] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.612] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.612] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.612] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.612] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.612] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.612] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.613] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.700] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.700] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.700] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.700] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.700] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:11:1
+Module not found: Can't resolve './globals'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.701] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.702] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.702] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.702] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.702] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.766] Server  LOG      ✓ Compiled in 118ms
+[00:05:54.814] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.814] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.814] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.814] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.814] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.814] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.814] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:22:1
+Module not found: Can't resolve '../lib/implicit-tags'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.815] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.816] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.816] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.816] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.816] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.816] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.816] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.816] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.816] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.816] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.817] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.926] Server  LOG      ✓ Compiled in 99ms
+[00:05:54.994] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.994] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.995] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.997] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.997] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.997] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.997] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.997] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.997] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:8:5
+Module not found: Can't resolve '../lru-cache'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.998] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:8:5
+Module not found: Can't resolve '../lru-cache'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.999] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js:3:1
+Module not found: Can't resolve './lazy-result'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.999] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js:3:1
+Module not found: Can't resolve './lazy-result'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.999] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.999] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.999] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.999] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.999] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.999] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:54.999] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.000] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.000] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.000] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.000] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.069] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.069] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.069] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.070] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.070] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.070] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.070] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.070] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.070] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.071] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.071] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.071] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.071] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.071] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.071] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.071] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.071] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.071] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.071] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:8:1
+Module not found: Can't resolve '../internal-utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.071] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:8:5
+Module not found: Can't resolve '../lru-cache'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:8:5
+Module not found: Can't resolve '../lru-cache'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js:3:1
+Module not found: Can't resolve './lazy-result'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js:3:1
+Module not found: Can't resolve './lazy-result'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.072] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.203] Server  LOG      ✓ Compiled in 140ms
+[00:05:55.784] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.785] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.786] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:7:1
+Module not found: Can't resolve './next-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/client/components/is-next-router-error.js:2:1
+Module not found: Can't resolve './redirect-error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/client/components/is-next-router-error.js:2:1
+Module not found: Can't resolve './redirect-error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.787] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.788] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.788] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.788] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.788] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.788] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.788] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.833] Server  LOG      ✓ Compiled in 76ms
+[00:05:55.893] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.893] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.894] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.894] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.894] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.894] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.894] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.894] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.894] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.895] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.895] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.895] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.895] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.896] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.896] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.896] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.896] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.896] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-path-prefix.js:1:1
+Module not found: Can't resolve './parse-path'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-path-prefix.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-path-prefix.js:1:1
+Module not found: Can't resolve './parse-path'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-path-prefix.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-path-suffix.js:1:1
+Module not found: Can't resolve './parse-path'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-path-suffix.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-path-suffix.js:1:1
+Module not found: Can't resolve './parse-path'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-path-suffix.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-locale.js:2:1
+Module not found: Can't resolve './path-has-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-locale.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-locale.js:2:1
+Module not found: Can't resolve './path-has-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-locale.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js:3:1
+Module not found: Can't resolve './path-has-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js:3:1
+Module not found: Can't resolve './path-has-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/client/components/is-next-router-error.js:2:1
+Module not found: Can't resolve './redirect-error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/client/components/is-next-router-error.js:2:1
+Module not found: Can't resolve './redirect-error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js:2:1
+Module not found: Can't resolve './remove-path-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.897] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js:2:1
+Module not found: Can't resolve './remove-path-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.902] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js:1:1
+Module not found: Can't resolve './remove-trailing-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.906] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js:1:1
+Module not found: Can't resolve './remove-trailing-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.907] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.907] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.907] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.908] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.909] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.910] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.910] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.910] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.910] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:55.939] Server  LOG      ✓ Compiled in 84ms
+[00:05:56.016] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.016] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.016] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.016] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.016] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.017] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.017] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.017] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.017] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.018] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.018] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.018] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.018] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.018] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.018] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.019] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.019] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.019] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.019] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.019] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-locale.js:2:1
+Module not found: Can't resolve './path-has-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-locale.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.020] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-locale.js:2:1
+Module not found: Can't resolve './path-has-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/add-locale.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.020] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js:3:1
+Module not found: Can't resolve './path-has-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.020] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js:3:1
+Module not found: Can't resolve './path-has-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.020] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/client/components/is-next-router-error.js:2:1
+Module not found: Can't resolve './redirect-error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.020] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/client/components/is-next-router-error.js:2:1
+Module not found: Can't resolve './redirect-error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.020] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js:2:1
+Module not found: Can't resolve './remove-path-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.020] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js:2:1
+Module not found: Can't resolve './remove-path-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.020] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js:1:1
+Module not found: Can't resolve './remove-trailing-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.022] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js:1:1
+Module not found: Can't resolve './remove-trailing-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.022] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.022] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.022] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.022] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.022] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.023] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.023] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.023] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.023] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.041] Server  LOG      ✓ Compiled in 22ms
+[00:05:56.160] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.160] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js:2:1
+Module not found: Can't resolve '../../segment'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/app-paths.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.161] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.161] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.161] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:6:1
+Module not found: Can't resolve '../../shared/lib/router/utils/relativize-url'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.161] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.161] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:15:1
+Module not found: Can't resolve '../app-render/work-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.161] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.161] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:13:1
+Module not found: Can't resolve '../app-render/work-unit-async-storage.external'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.161] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.161] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:12:1
+Module not found: Can't resolve '../async-storage/request-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.162] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.162] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:14:1
+Module not found: Can't resolve '../async-storage/work-store'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.162] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.163] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.163] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.163] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js:9:1
+Module not found: Can't resolve '../incremental-cache/tags-manifest.external'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/cache-handlers/default.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/use-cache/handlers.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/lib/implicit-tags.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.163] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.163] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:17:1
+Module not found: Can't resolve '../lib/trace/tracer'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.163] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/client/components/is-next-router-error.js:2:1
+Module not found: Can't resolve './redirect-error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.163] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/client/components/is-next-router-error.js:2:1
+Module not found: Can't resolve './redirect-error'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.163] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js:2:1
+Module not found: Can't resolve './remove-path-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.164] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js:2:1
+Module not found: Can't resolve './remove-path-prefix'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/get-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.164] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js:1:1
+Module not found: Can't resolve './remove-trailing-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.164] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js:1:1
+Module not found: Can't resolve './remove-trailing-slash'
+
+
+Import trace:
+  Edge Middleware:
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/shared/lib/router/utils/format-next-pathname-info.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/next-url.js
+    ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.164] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.164] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:4:1
+Module not found: Can't resolve './spec-extension/request'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.164] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.164] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:5:1
+Module not found: Can't resolve './spec-extension/response'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.164] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.165] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.165] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:2:1
+Module not found: Can't resolve './utils'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.165] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.166] Server  ERROR    ⨯ ./Documents/GitHub/Zaniboni-lightning/node_modules/next/dist/esm/server/web/adapter.js:19:1
+Module not found: Can't resolve './web-on-close'
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:05:56.287] Server  LOG      ✓ Compiled in 65ms
+[00:05:57.296] Server  LOG      ✓ Compiled in 575ms

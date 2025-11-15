@@ -1,0 +1,33 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/_7df030a7._.js",
+        "server/edge/chunks/[root-of-the-server]__281535f2._.js",
+        "server/edge/chunks/turbopack-Documents_GitHub_Zaniboni-lightning_edge-wrapper_81c42548.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?\\/admin(?:\\/((?:[^\\/#\\?]+?)(?:\\/(?:[^\\/#\\?]+?))*))?(\\\\.json)?[\\/#\\?]?$",
+          "originalSource": "/admin/:path*"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "N8qK2+dxDRV5r1V5YherW7BtQNgcdQXrgY4VddJUS/0=",
+        "__NEXT_PREVIEW_MODE_ID": "9ebbac9ffaff586d2714ef8f7453e311",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "a2b64b330ab777e94efb120d9f03d7b15438631168030f37d4d110b3479ecc7c",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "980a344d0c2ff5749483bfff974936680befe8b23084365d70a6ad6632ac1ace"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ],
+  "functions": {}
+}
