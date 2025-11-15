@@ -5,11 +5,11 @@ import { cookies } from "next/headers"
 // Simple password-based authentication (no database)
 // In production, use environment variables for credentials
 const ADMIN_CREDENTIALS = {
-  username: "admin",
-  password: "Zaniboni2025!", // Change this to a secure password
+  username: process.env.ADMIN_CREDENTIALS_USERNAME || "admin",
+  password: process.env.ADMIN_CREDENTIALS_PASSWORD || "Zaniboni2025!",
 }
 
-const SESSION_COOKIE_NAME = "zaniboni_admin_session"
+const SESSION_COOKIE_NAME = process.env.ZANBONI_ADMIN_SESSION || "zaniboni_admin_session"
 const SESSION_DURATION = 24 * 60 * 60 * 1000 // 24 hours
 
 interface Session {
