@@ -13,23 +13,23 @@ export const metadata: Metadata = {
     "Premium architectural lighting solutions. 100% independent, Made in the USA. We better the world by lighting it beautifully.",
   keywords:
     "architectural lighting, premium lighting, LED lighting, custom lighting, USA made lighting, commercial lighting",
-  icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
-  },
+  // icons: {
+  //   icon: [
+  //     {
+  //       url: "",
+  //       media: "(prefers-color-scheme: light)",
+  //     },
+  //     {
+  //       url: "",
+  //       media: "(prefers-color-scheme: dark)",
+  //     },
+  //     {
+  //       url: "",
+  //       type: "image/svg+xml",
+  //     },
+  //   ],
+  //   apple: "/apple-icon.png",
+  // },
 }
 
 export default function RootLayout({
