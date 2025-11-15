@@ -4675,3 +4675,4 @@ https://nextjs.org/docs/messages/module-not-found
 
 [00:05:56.287] Server  LOG      ✓ Compiled in 65ms
 [00:05:57.296] Server  LOG      ✓ Compiled in 575ms
+[00:15:43.943] Server  LOG        Reload env: .env.local
