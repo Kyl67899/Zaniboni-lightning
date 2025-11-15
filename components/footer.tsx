@@ -44,7 +44,7 @@ export function Footer() {
               <ul className="space-y-2">
                 {links.map((link) => (
                   <li key={link}>
-                    <a href="#" className="text-xs sm:text-sm opacity-80 hover:opacity-100 transition-opacity">
+                    <a href={`/${link}`} className="text-xs sm:text-sm opacity-80 hover:opacity-100 transition-opacity">
                       {link}
                     </a>
                   </li>
@@ -58,13 +58,13 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm opacity-80">
             <div className="text-center md:text-left">© 2025 Zaniboni Lighting. All rights reserved.</div>
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
-              <a href="#" className="hover:opacity-100 transition-opacity whitespace-nowrap">
+              <a href="/privacy" className="hover:opacity-100 transition-opacity whitespace-nowrap">
                 Privacy Policy
               </a>
-              <a href="#" className="hover:opacity-100 transition-opacity whitespace-nowrap">
+              <a href="/term-of-service" className="hover:opacity-100 transition-opacity whitespace-nowrap">
                 Terms of Service
               </a>
-              <a href="#" className="hover:opacity-100 transition-opacity whitespace-nowrap">
+              <a href="/accessibility" className="hover:opacity-100 transition-opacity whitespace-nowrap">
                 Accessibility
               </a>
             </div>
