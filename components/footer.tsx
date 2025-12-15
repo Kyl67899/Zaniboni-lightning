@@ -57,6 +57,12 @@ export function Footer() {
         <div className="pt-6 sm:pt-8 border-t border-primary-foreground/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm opacity-80">
             <div className="text-center md:text-left">© 2025 Zaniboni Lighting. All rights reserved.</div>
+            <p>
+                            Developed by
+                            <a href="https://kylepprofile.dev">
+                                Kyle Parsotan
+                            </a>
+                        </p>
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
               <a href="/privacy" className="hover:opacity-100 transition-opacity whitespace-nowrap">
                 Privacy Policy
