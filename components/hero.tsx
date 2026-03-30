@@ -62,7 +62,7 @@ export function Hero() {
           alt="Zaniboni Lighting showcase"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
+        <div className="absolute inset-0 bg-linear-to-b from-black/60 via-black/40 to-background" />
       </div>
 
       {/* Content */}
@@ -116,7 +116,7 @@ export function Hero() {
 
       {/* Scroll Indicator */}
       <div className="hidden sm:block absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex items-start justify-center p-2">
+        <div className="w-6 h-10 -mt-6 border-2 border-white/50 rounded-full flex items-start justify-center p-2">
           <div className="w-1 h-2 bg-white/50 rounded-full" />
         </div>
       </div>

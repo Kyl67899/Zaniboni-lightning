@@ -29,9 +29,7 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <main className="min-h-screen bg-background">
-      <Header />
       <BlogPostContent slug={slug} />
-      <Footer />
     </main>
   )
 }

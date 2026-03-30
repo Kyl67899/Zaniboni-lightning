@@ -21,8 +21,6 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
   return (
     <main className="min-h-screen bg-background">
-      <Header />
-
       <section className="pt-32 pb-16">
         <div className="container mx-auto px-4 lg:px-8">
           {/* Back Button */}
@@ -124,8 +122,6 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   )
 }

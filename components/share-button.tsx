@@ -3,8 +3,9 @@
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
-import { Share2, Facebook, Linkedin, Twitter, Copy, Check } from "lucide-react"
 import { useToast } from "@/hooks/use-toast"
+import { Check, Copy, Share2Icon } from "lucide-react"
+import { BsFacebook, BsLinkedin, BsTwitter } from "react-icons/bs"
 
 interface ShareButtonProps {
   url: string
@@ -67,21 +68,21 @@ export function ShareButton({
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button variant={variant} size={size} className={className}>
-          <Share2 className="h-4 w-4 mr-2" />
+          <Share2Icon className="h-4 w-4 mr-2" />
           Share
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end" className="w-48">
         <DropdownMenuItem onClick={() => handleShare("facebook")} className="cursor-pointer">
-          <Facebook className="h-4 w-4 mr-2" />
+          <BsFacebook className="h-4 w-4 mr-2" />
           Facebook
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => handleShare("twitter")} className="cursor-pointer">
-          <Twitter className="h-4 w-4 mr-2" />
+          <BsTwitter className="h-4 w-4 mr-2" />
           Twitter / X
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => handleShare("linkedin")} className="cursor-pointer">
-          <Linkedin className="h-4 w-4 mr-2" />
+          <BsLinkedin className="h-4 w-4 mr-2" />
           LinkedIn
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => handleShare("tiktok")} className="cursor-pointer">

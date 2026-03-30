@@ -1,82 +1,147 @@
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react"
+"use client";
+
+import Link from "next/link";
+import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
+import { motion } from "framer-motion";
 
 export function Footer() {
   const footerLinks = {
-    Products: ["Linear Pendants", "Recessed Lighting", "Track Systems", "Wall Sconces", "Custom Solutions"],
+    Products: [
+      "Linear Pendants",
+      "Recessed Lighting",
+      "Track Systems",
+      "Wall Sconces",
+      "Custom Solutions",
+    ],
     Company: ["About Us", "Manufacturing", "Sustainability", "Careers", "Contact"],
-    Resources: ["Product Catalog", "Case Studies", "Technical Specs", "Installation Guides", "Warranty"],
+    Resources: [
+      "Product Catalog",
+      "Case Studies",
+      "Technical Specs",
+      "Installation Guides",
+      "Warranty",
+    ],
     Support: ["FAQs", "Shipping", "Returns", "Product Care", "Contact Support"],
-  }
+  };
+
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.15,
+      },
+    },
+  };
+
+  const icons = [BsFacebook, BsInstagram, BsLinkedin, BsTwitter];
+
+  const item = {
+    hidden: { opacity: 0, y: 30 },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.5, ease: "easeOut" },
+    },
+  };
 
   return (
     <footer className="bg-primary text-primary-foreground">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 sm:gap-10 lg:gap-12 mb-12">
+      <motion.div
+        variants={container}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: true, margin: "-100px" }}
+        className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8 py-14 lg:py-20"
+      >
+        {/* Top Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 lg:gap-14">
           {/* Brand */}
-          <div className="lg:col-span-1">
-            <div className="text-2xl font-serif font-bold tracking-tight mb-4">
-              ZANIBONI
-              <span className="block text-xs font-sans font-normal tracking-widest opacity-80">LIGHTING</span>
+          <motion.div variants={item} className="lg:col-span-1 space-y-5">
+            <div>
+              <h2 className="text-2xl font-serif font-bold tracking-tight">
+                ZANIBONI
+              </h2>
+              <span className="block text-xs tracking-[0.3em] opacity-70">
+                LIGHTING
+              </span>
             </div>
-            <p className="text-sm opacity-80 leading-relaxed mb-6">
-              Premium architectural lighting solutions. Made in the USA.
+
+            <p className="text-sm opacity-80 leading-relaxed max-w-xs">
+              Premium architectural lighting solutions crafted with precision. Proudly made in the USA.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="hover:opacity-80 transition-opacity" aria-label="Facebook">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:opacity-80 transition-opacity" aria-label="Instagram">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:opacity-80 transition-opacity" aria-label="LinkedIn">
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="hover:opacity-80 transition-opacity" aria-label="Twitter">
-                <Twitter className="h-5 w-5" />
-              </a>
+
+            {/* Socials */}
+            <div className="flex items-center gap-4">
+              {icons.map((Icon, i) => (
+                <Link
+                  key={i}
+                  href="#"
+                  className="p-2 rounded-full border border-primary-foreground/20 hover:bg-primary-foreground hover:text-primary transition-all duration-300"
+                >
+                  <Icon className="h-4 w-4" />
+                </Link>
+              ))}
             </div>
-          </div>
+          </motion.div>
 
           {/* Links */}
           {Object.entries(footerLinks).map(([category, links]) => (
-            <div key={category}>
-              <h3 className="font-semibold mb-3 sm:mb-4 text-sm sm:text-base">{category}</h3>
-              <ul className="space-y-2">
+            <motion.div key={category} variants={item}>
+              <h3 className="text-sm font-semibold uppercase tracking-wide mb-4 opacity-90">
+                {category}
+              </h3>
+              <ul className="space-y-2.5">
                 {links.map((link) => (
                   <li key={link}>
-                    <a href={`/${link}`} className="text-xs sm:text-sm opacity-80 hover:opacity-100 transition-opacity">
+                    <Link
+                      href={`/${link.toLowerCase().replace(/\\s+/g, "-")}`}
+                      className="text-sm opacity-70 hover:opacity-100 hover:translate-x-1 inline-block transition-all duration-200"
+                    >
                       {link}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
-            </div>
+            </motion.div>
           ))}
         </div>
 
-        <div className="pt-6 sm:pt-8 border-t border-primary-foreground/20">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm opacity-80">
-            <div className="text-center md:text-left">© 2025 Zaniboni Lighting. All rights reserved.</div>
-            <p>
-                            Developed by
-                            <a href="https://kylepprofile.dev">
-                                Kyle Parsotan
-                            </a>
-                        </p>
-            <div className="flex flex-wrap justify-center gap-4 sm:gap-6">
-              <a href="/privacy" className="hover:opacity-100 transition-opacity whitespace-nowrap">
-                Privacy Policy
-              </a>
-              <a href="/term-of-service" className="hover:opacity-100 transition-opacity whitespace-nowrap">
-                Terms of Service
-              </a>
-              <a href="/accessibility" className="hover:opacity-100 transition-opacity whitespace-nowrap">
-                Accessibility
-              </a>
-            </div>
+        {/* Divider */}
+        <motion.div variants={item} className="my-10 border-t border-primary-foreground/20" />
+
+        {/* Bottom Section */}
+        <motion.div
+          variants={item}
+          className="flex flex-col md:flex-row items-center justify-between gap-6 text-sm opacity-80"
+        >
+          <p className="text-center md:text-left">
+            © {new Date().getFullYear()} Zaniboni Lighting. All rights reserved.
+          </p>
+
+          <div className="flex flex-wrap justify-center gap-6">
+            <Link href="/privacy" className="hover:opacity-100 transition">
+              Privacy Policy
+            </Link>
+            <Link href="/terms" className="hover:opacity-100 transition">
+              Terms of Service
+            </Link>
+            <Link href="/accessibility" className="hover:opacity-100 transition">
+              Accessibility
+            </Link>
           </div>
-        </div>
-      </div>
+
+          <p className="text-center md:text-right">
+            Developed by{" "}
+            <Link
+              href="https://kylepprofile.dev"
+              className="underline hover:opacity-100 hover:underline-offset-3 transition"
+            >
+              Kyle Parsotan
+            </Link>
+          </p>
+        </motion.div>
+      </motion.div>
     </footer>
-  )
+  );
 }

@@ -10,6 +10,7 @@ import { Card } from "@/components/ui/card"
 import { Search, Calendar, Clock, ArrowRight, X } from "lucide-react"
 import { blogPosts, blogCategories, type BlogPost } from "@/data/blog"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function ResourcesPage() {
   const [searchQuery, setSearchQuery] = useState("")
@@ -48,8 +49,6 @@ export default function ResourcesPage() {
 
   return (
     <main className="min-h-screen bg-background">
-      <Header />
-
       {/* Hero Section */}
       <section className="pt-28 sm:pt-32 pb-10 sm:pb-12 bg-muted/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -119,15 +118,19 @@ export default function ResourcesPage() {
         <section className="py-10 sm:py-12">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-5xl mx-auto">
-              <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-6 sm:mb-8">Featured Articles</h2>
+              <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-6 sm:mb-8">
+                Featured Articles
+              </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
                 {featuredPosts.map((post) => (
                   <Link key={post.id} href={`/resources/${post.slug}`}>
-                    <Card className="overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col">
+                    <Card className="overflow-hidden hover:shadow-lg transition-all mt-3 group h-full flex flex-col">
                       <div className="aspect-video bg-muted overflow-hidden">
-                        <img
+                        <Image
                           src={`/.jpg?height=400&width=600&query=${post.image}`}
                           alt={post.title}
+                          width={600}
+                          height={400}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                         />
                       </div>
@@ -182,11 +185,13 @@ export default function ResourcesPage() {
         <section className="py-10 sm:py-12 bg-muted/30">
           <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-5xl mx-auto">
-              <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-6 sm:mb-8">All Articles</h2>
+              <h2 className="text-2xl sm:text-3xl font-serif font-bold mb-6 sm:mb-8">
+                All Articles
+              </h2>
               <div className="space-y-4 sm:space-y-6">
                 {regularPosts.map((post) => (
                   <Link key={post.id} href={`/resources/${post.slug}`}>
-                    <Card className="overflow-hidden hover:shadow-lg transition-all group">
+                    <Card className="overflow-hidden hover:shadow-lg mb-4 transition-all group">
                       <div className="grid grid-cols-1 md:grid-cols-[280px_1fr] lg:grid-cols-[300px_1fr] gap-4 sm:gap-6">
                         <div className="aspect-video md:aspect-square bg-muted overflow-hidden">
                           <img
@@ -292,8 +297,6 @@ export default function ResourcesPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   )
 }

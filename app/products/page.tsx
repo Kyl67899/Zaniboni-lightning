@@ -89,8 +89,6 @@ export default function ProductsPage() {
 
   return (
     <main className="min-h-screen bg-background">
-      <Header />
-
       {/* Hero Section */}
       <section className="pt-32 pb-12 bg-muted/30">
         <div className="container mx-auto px-4 lg:px-8">
@@ -271,8 +269,6 @@ export default function ProductsPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </main>
   )
 }
