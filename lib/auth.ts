@@ -1,78 +1,91 @@
-"use server"
+/**
+ * Admin session handling: a signed, expiring token kept in an httpOnly cookie.
+ * Uses Web Crypto so the same code runs in route handlers and in proxy.ts.
+ */
+export const SESSION_COOKIE = "zl_admin_session"
+export const SESSION_MAX_AGE_SECONDS = 8 * 60 * 60
 
-import { cookies } from "next/headers"
+const encoder = new TextEncoder()
 
-// Simple password-based authentication (no database)
-// In production, use environment variables for credentials
-const ADMIN_CREDENTIALS = {
-  username: process.env.ADMIN_CREDENTIALS_USERNAME || "admin",
-  password: process.env.ADMIN_CREDENTIALS_PASSWORD || "Zaniboni2025!",
+function credentials() {
+  const username = process.env.ADMIN_CREDENTIALS_USERNAME
+  const password = process.env.ADMIN_CREDENTIALS_PASSWORD
+  return username && password ? { username, password } : null
 }
 
-const SESSION_COOKIE_NAME = process.env.ZANBONI_ADMIN_SESSION || "zaniboni_admin_session"
-const SESSION_DURATION = 24 * 60 * 60 * 1000 // 24 hours
-
-interface Session {
-  username: string
-  expiresAt: number
+export function isAuthConfigured() {
+  return credentials() !== null
 }
 
-export async function login(username: string, password: string) {
-  if (username === ADMIN_CREDENTIALS.username && password === ADMIN_CREDENTIALS.password) {
-    // Create session
-    const session: Session = {
-      username,
-      expiresAt: Date.now() + SESSION_DURATION,
-    }
-
-    const cookieStore = await cookies()
-    cookieStore.set(SESSION_COOKIE_NAME, JSON.stringify(session), {
-      httpOnly: true,
-      secure: process.env.NODE_ENV === "production",
-      sameSite: "lax",
-      maxAge: SESSION_DURATION / 1000,
-      path: "/",
-    })
-
-    return { success: true }
-  }
-
-  return { success: false, error: "Invalid credentials" }
+function signingSecret() {
+  if (process.env.ADMIN_SESSION_SECRET) return process.env.ADMIN_SESSION_SECRET
+  const creds = credentials()
+  // Deriving from the credentials means changing the password ends every session.
+  return creds ? `zaniboni-session:${creds.username}:${creds.password}` : null
 }
 
-export async function logout() {
-  const cookieStore = await cookies()
-  cookieStore.delete(SESSION_COOKIE_NAME)
-  return { success: true }
+function toBase64Url(bytes: Uint8Array) {
+  return btoa(String.fromCharCode(...bytes))
+    .replace(/\+/g, "-")
+    .replace(/\//g, "_")
+    .replace(/=+$/, "")
 }
 
-export async function getSession(): Promise<Session | null> {
-  const cookieStore = await cookies()
-  const sessionCookie = cookieStore.get(SESSION_COOKIE_NAME)
+function timingSafeEqual(a: Uint8Array, b: Uint8Array) {
+  if (a.length !== b.length) return false
+  let diff = 0
+  for (let i = 0; i < a.length; i++) diff |= a[i] ^ b[i]
+  return diff === 0
+}
 
-  if (!sessionCookie) {
-    return null
-  }
+async function sign(secret: string, data: string) {
+  const key = await crypto.subtle.importKey("raw", encoder.encode(secret), { name: "HMAC", hash: "SHA-256" }, false, [
+    "sign",
+  ])
+  return new Uint8Array(await crypto.subtle.sign("HMAC", key, encoder.encode(data)))
+}
+
+async function sha256(value: string) {
+  return new Uint8Array(await crypto.subtle.digest("SHA-256", encoder.encode(value)))
+}
+
+export async function credentialsMatch(username: string, password: string) {
+  const creds = credentials()
+  if (!creds) return false
+  // Hash first so the comparison takes the same time whatever the input length.
+  const [userOk, passOk] = await Promise.all([
+    Promise.all([sha256(username), sha256(creds.username)]).then(([a, b]) => timingSafeEqual(a, b)),
+    Promise.all([sha256(password), sha256(creds.password)]).then(([a, b]) => timingSafeEqual(a, b)),
+  ])
+  return userOk && passOk
+}
+
+export async function createSessionToken(username: string) {
+  const secret = signingSecret()
+  if (!secret) throw new Error("Admin credentials are not configured")
+  const payload = toBase64Url(
+    encoder.encode(JSON.stringify({ username, exp: Date.now() + SESSION_MAX_AGE_SECONDS * 1000 })),
+  )
+  return `${payload}.${toBase64Url(await sign(secret, payload))}`
+}
+
+export async function verifySessionToken(token: string | undefined) {
+  const secret = signingSecret()
+  if (!secret || !token) return null
+
+  const [payload, signature] = token.split(".")
+  if (!payload || !signature) return null
+
+  const expected = toBase64Url(await sign(secret, payload))
+  if (!timingSafeEqual(encoder.encode(expected), encoder.encode(signature))) return null
 
   try {
-    const session: Session = JSON.parse(sessionCookie.value)
-
-    // Check if session is expired
-    if (session.expiresAt < Date.now()) {
-      await logout()
-      return null
+    const session = JSON.parse(atob(payload.replace(/-/g, "+").replace(/_/g, "/"))) as {
+      username: string
+      exp: number
     }
-
-    return session
+    return session.exp > Date.now() ? session : null
   } catch {
     return null
   }
-}
-
-export async function requireAuth() {
-  const session = await getSession()
-  if (!session) {
-    throw new Error("Unauthorized")
-  }
-  return session
 }

@@ -1,74 +1,49 @@
-import { resend, EMAIL_CONFIG } from "@/lib/resend"
 import { NextResponse } from "next/server"
+import { z } from "zod"
+import { contactFields, parseForm, SEND_FAILED_MESSAGE } from "@/lib/forms"
+import { confirmationEmail, EMAIL_CONFIG, emailShell, escapeHtml, sendEmail } from "@/lib/resend"
+
+const schema = z.object(contactFields)
 
 export async function POST(request: Request) {
+  const form = await parseForm(request, "contact", schema)
+  if (!form.ok) return form.response
+
+  const { name, email, phone, message } = form.data
+
   try {
-    const { name, email, phone, message } = await request.json()
-
-    // Validation
-    if (!name || !email || !message) {
-      return NextResponse.json({ error: "Name, email, and message are required" }, { status: 400 })
-    }
-
-    if (!email.includes("@")) {
-      return NextResponse.json({ error: "Valid email is required" }, { status: 400 })
-    }
-
-    // Send confirmation email to customer
-    await resend.emails.send({
-      from: EMAIL_CONFIG.from,
-      to: email,
-      subject: "We've Received Your Message - Zaniboni Lighting",
-      html: `
-        <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
-          <h1 style="color: #8B7355; font-family: serif;">Thank You for Contacting Us</h1>
-          <p>Hi ${name},</p>
-          <p>We've received your message and our team will get back to you within 1-2 business days.</p>
-          
-          <div style="background: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0;">
-            <h3 style="margin-top: 0;">Your Message:</h3>
-            <p style="white-space: pre-wrap;">${message}</p>
-          </div>
-
-          <p>In the meantime, feel free to:</p>
-          <ul>
-            <li>Browse our <a href="https://zanibonilighting.com/products">product collections</a></li>
-            <li>Call us at +1 (800) 555-1234</li>
-            <li>Email us at shuttle876@gmail.com</li>
-          </ul>
-
-          <p style="margin-top: 30px;">Best regards,<br/>The Zaniboni Lighting Team</p>
-        </div>
-      `,
-    })
-
-    // Send notification email to business
-    await resend.emails.send({
-      from: EMAIL_CONFIG.from,
+    // Send the enquiry first: it's the email the business can't afford to lose.
+    await sendEmail({
       to: EMAIL_CONFIG.notificationEmail,
       replyTo: email,
-      subject: `New Contact Form Submission from ${name}`,
-      html: `
-        <div style="font-family: sans-serif;">
-          <h2>New Contact Form Submission</h2>
-          <p><strong>Name:</strong> ${name}</p>
-          <p><strong>Email:</strong> ${email}</p>
-          <p><strong>Phone:</strong> ${phone || "Not provided"}</p>
-          <p><strong>Date:</strong> ${new Date().toLocaleString()}</p>
-          
-          <div style="background: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0;">
-            <h3 style="margin-top: 0;">Message:</h3>
-            <p style="white-space: pre-wrap;">${message}</p>
-          </div>
-
-          <p><em>Reply directly to this email to respond to the customer.</em></p>
-        </div>
-      `,
+      subject: "New website enquiry",
+      html: emailShell(`
+        <h1 style="font-weight:400;font-size:24px;margin:0 0 16px">New website enquiry</h1>
+        <p><strong>Name:</strong> ${escapeHtml(name)}<br/>
+        <strong>Email:</strong> ${escapeHtml(email)}<br/>
+        <strong>Phone:</strong> ${escapeHtml(phone || "Not provided")}</p>
+        <p style="white-space:pre-wrap">${escapeHtml(message)}</p>
+      `),
     })
-
-    return NextResponse.json({ message: "Message sent successfully!" }, { status: 200 })
   } catch (error) {
-    console.error("Contact form error:", error)
-    return NextResponse.json({ error: "Failed to send message. Please try again." }, { status: 500 })
+    console.error("Contact form: enquiry not sent:", error instanceof Error ? error.message : "unknown error")
+    return NextResponse.json({ error: SEND_FAILED_MESSAGE }, { status: 502 })
   }
+
+  // The enquiry has arrived, so a failed confirmation shouldn't show as an error.
+  try {
+    await sendEmail({
+      to: email,
+      replyTo: EMAIL_CONFIG.replyTo,
+      subject: "We've received your message",
+      html: confirmationEmail(
+        "Thank you for contacting us",
+        "We've received your message and will get back to you as quickly as possible.",
+      ),
+    })
+  } catch (error) {
+    console.error("Contact form: confirmation not sent:", error instanceof Error ? error.message : "unknown error")
+  }
+
+  return NextResponse.json({ message: "Thank you. Your message has been sent." })
 }

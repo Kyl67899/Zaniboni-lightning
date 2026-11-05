@@ -1,20 +1,11 @@
+import { cookies } from "next/headers"
 import { NextResponse } from "next/server"
+import { SESSION_COOKIE, verifySessionToken } from "@/lib/auth"
 
-export async function POST(request: Request) {
-  try {
-    const { session } = await request.json()
+export async function GET() {
+  const cookieStore = await cookies()
+  const session = await verifySessionToken(cookieStore.get(SESSION_COOKIE)?.value)
 
-    if (!session || !session.username || !session.expiresAt) {
-      return NextResponse.json({ valid: false }, { status: 401 })
-    }
-
-    // Check if session is expired
-    if (session.expiresAt < Date.now()) {
-      return NextResponse.json({ valid: false }, { status: 401 })
-    }
-
-    return NextResponse.json({ valid: true, username: session.username })
-  } catch (error) {
-    return NextResponse.json({ valid: false }, { status: 500 })
-  }
+  if (!session) return NextResponse.json({ valid: false }, { status: 401 })
+  return NextResponse.json({ valid: true, username: session.username })
 }

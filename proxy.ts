@@ -1,11 +1,18 @@
 import { NextResponse } from "next/server"
 import type { NextRequest } from "next/server"
+import { SESSION_COOKIE, verifySessionToken } from "@/lib/auth"
 
-export function proxy(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
+  const session = await verifySessionToken(request.cookies.get(SESSION_COOKIE)?.value)
+  const isLoginPage = pathname === "/admin/login"
 
-  // Allow all admin routes to pass through
-  // Authentication is now handled client-side with localStorage
+  if (!session && !isLoginPage) {
+    return NextResponse.redirect(new URL("/admin/login", request.url))
+  }
+  if (session && isLoginPage) {
+    return NextResponse.redirect(new URL("/admin", request.url))
+  }
   return NextResponse.next()
 }
 

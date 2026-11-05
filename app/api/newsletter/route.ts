@@ -1,56 +1,46 @@
-import { resend, EMAIL_CONFIG } from "@/lib/resend"
 import { NextResponse } from "next/server"
+import { z } from "zod"
+import { emailField, parseForm } from "@/lib/forms"
+import { EMAIL_CONFIG, emailShell, escapeHtml, sendEmail } from "@/lib/resend"
+import { site } from "@/lib/site"
+
+const schema = z.object({ email: emailField })
 
 export async function POST(request: Request) {
+  const form = await parseForm(request, "newsletter", schema)
+  if (!form.ok) return form.response
+
+  const { email } = form.data
+
   try {
-    const { email } = await request.json()
-
-    if (!email || !email.includes("@")) {
-      return NextResponse.json({ error: "Valid email is required" }, { status: 400 })
-    }
-
-    // Send confirmation email to subscriber
-    await resend.emails.send({
-      from: EMAIL_CONFIG.from,
-      to: email,
-      subject: "Welcome to Zaniboni Lighting",
-      html: `
-        <div style="font-family: sans-serif; max-width: 600px; margin: 0 auto;">
-          <h1 style="color: #8B7355; font-family: serif;">Welcome to Zaniboni Lighting</h1>
-          <p>Thank you for subscribing to our newsletter!</p>
-          <p>You'll now receive the latest updates on:</p>
-          <ul>
-            <li>New product launches and collections</li>
-            <li>Design inspiration and lighting trends</li>
-            <li>Exclusive offers and promotions</li>
-            <li>Industry insights and tips</li>
-          </ul>
-          <p style="margin-top: 30px;">We're excited to have you join our community of 5,000+ design professionals.</p>
-          <p style="color: #666; font-size: 14px; margin-top: 40px;">
-            You can unsubscribe at any time by clicking the link in any of our emails.
-          </p>
-        </div>
-      `,
-    })
-
-    // Send notification to admin
-    await resend.emails.send({
-      from: EMAIL_CONFIG.from,
+    // No subscriber list exists yet, so this email is the only record of the signup.
+    await sendEmail({
       to: EMAIL_CONFIG.notificationEmail,
       replyTo: email,
-      subject: "New Newsletter Subscription",
-      html: `
-        <div style="font-family: sans-serif;">
-          <h2>New Newsletter Subscription</h2>
-          <p><strong>Email:</strong> ${email}</p>
-          <p><strong>Date:</strong> ${new Date().toLocaleString()}</p>
-        </div>
-      `,
+      subject: "New newsletter signup",
+      html: emailShell(
+        `<h1 style="font-weight:400;font-size:24px;margin:0 0 16px">New newsletter signup</h1><p>${escapeHtml(email)}</p>`,
+      ),
     })
-
-    return NextResponse.json({ message: "Successfully subscribed!" }, { status: 200 })
   } catch (error) {
-    console.error("Newsletter subscription error:", error)
-    return NextResponse.json({ error: "Failed to subscribe. Please try again." }, { status: 500 })
+    console.error("Newsletter: signup not sent:", error instanceof Error ? error.message : "unknown error")
+    return NextResponse.json({ error: "We couldn't complete your signup. Please try again." }, { status: 502 })
   }
+
+  try {
+    await sendEmail({
+      to: email,
+      replyTo: EMAIL_CONFIG.replyTo,
+      subject: "Welcome to Zaniboni Lighting",
+      html: emailShell(`
+        <h1 style="font-weight:400;font-size:26px;margin:0 0 16px">Thank you for subscribing</h1>
+        <p>We'll share new products and ideas on lighting design from time to time.</p>
+        <p style="font-size:14px;color:#666">Didn't sign up, or changed your mind? Email ${site.email} and we'll remove you.</p>
+      `),
+    })
+  } catch (error) {
+    console.error("Newsletter: welcome not sent:", error instanceof Error ? error.message : "unknown error")
+  }
+
+  return NextResponse.json({ message: "Thank you for subscribing." })
 }

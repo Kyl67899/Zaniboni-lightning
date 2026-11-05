@@ -1,100 +1,88 @@
 "use client"
 
 import type React from "react"
-
+import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Mail, CheckCircle2, AlertCircle } from "lucide-react"
-import { useState } from "react"
 
 export function Newsletter() {
   const [email, setEmail] = useState("")
+  const [website, setWebsite] = useState("")
   const [isLoading, setIsLoading] = useState(false)
-  const [status, setStatus] = useState<"idle" | "success" | "error">("idle")
-  const [message, setMessage] = useState("")
+  const [status, setStatus] = useState<{ type: "success" | "error"; message: string } | null>(null)
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault()
     setIsLoading(true)
-    setStatus("idle")
-    setMessage("")
+    setStatus(null)
 
     try {
       const response = await fetch("/api/newsletter", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email }),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, website }),
       })
-
       const data = await response.json()
 
       if (response.ok) {
-        setStatus("success")
-        setMessage(data.message || "Successfully subscribed!")
+        setStatus({ type: "success", message: data.message })
         setEmail("")
       } else {
-        setStatus("error")
-        setMessage(data.error || "Failed to subscribe. Please try again.")
+        setStatus({ type: "error", message: data.error })
       }
-    } catch (error) {
-      setStatus("error")
-      setMessage("Network error. Please check your connection and try again.")
+    } catch {
+      setStatus({ type: "error", message: "Please check your connection and try again." })
     } finally {
       setIsLoading(false)
-      // Clear message after 5 seconds
-      setTimeout(() => {
-        setStatus("idle")
-        setMessage("")
-      }, 5000)
     }
   }
 
   return (
-    <section className="py-24 bg-secondary text-secondary-foreground">
-      <div className="container mx-auto px-4 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center">
-          <Mail className="h-12 w-12 mx-auto mb-6 opacity-90" />
-          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-4 text-balance">Stay Illuminated</h2>
-          <p className="text-lg opacity-90 mb-8 text-pretty">
-            Subscribe to our newsletter for the latest product launches, design inspiration, and industry insights
-            delivered to your inbox.
+    <section className="border-t border-border">
+      <div className="shell grid gap-8 py-16 md:py-20 lg:grid-cols-2 lg:items-center">
+        <div>
+          <h2 className="text-3xl font-light md:text-4xl">Light, considered</h2>
+          <p className="mt-3 max-w-md leading-relaxed text-muted-foreground">
+            New products and ideas on lighting design, sent from time to time.
           </p>
-
-          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
+        </div>
+        <form onSubmit={handleSubmit} className="relative">
+          <div className="flex flex-col gap-3 sm:flex-row">
+            <label htmlFor="newsletter-email" className="sr-only">
+              Email address
+            </label>
             <Input
+              id="newsletter-email"
               type="email"
-              placeholder="Enter your email"
+              autoComplete="email"
+              placeholder="Your email address"
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(event) => setEmail(event.target.value)}
               required
               disabled={isLoading}
-              className="flex-1 bg-secondary-foreground/10 border-secondary-foreground/20 text-secondary-foreground placeholder:text-secondary-foreground/60"
+              className="h-12 flex-1 bg-transparent px-4"
             />
-            <Button
-              type="submit"
-              variant="outline"
-              disabled={isLoading}
-              className="border-secondary-foreground/20 text-secondary-foreground hover:bg-secondary-foreground/10 shrink-0 bg-transparent"
-            >
-              {isLoading ? "Subscribing..." : "Subscribe"}
+            <Button type="submit" size="lg" disabled={isLoading}>
+              {isLoading ? "Subscribing…" : "Subscribe"}
             </Button>
-          </form>
-
-          {message && (
-            <div
-              className={`mt-4 p-3 rounded-lg flex items-center justify-center gap-2 ${
-                status === "success" ? "bg-green-500/20 text-green-100" : "bg-red-500/20 text-red-100"
-              }`}
-            >
-              {status === "success" ? <CheckCircle2 className="h-5 w-5" /> : <AlertCircle className="h-5 w-5" />}
-              <span>{message}</span>
-            </div>
-          )}
-
-          <p className="text-sm opacity-70 mt-4">Join 5,000+ design professionals. Unsubscribe anytime.</p>
-        </div>
+          </div>
+          <input
+            type="text"
+            name="website"
+            tabIndex={-1}
+            autoComplete="off"
+            aria-hidden="true"
+            value={website}
+            onChange={(event) => setWebsite(event.target.value)}
+            className="absolute -left-[9999px] h-0 w-0 opacity-0"
+          />
+          <p
+            role="status"
+            className={`mt-3 min-h-5 text-sm ${status?.type === "error" ? "text-destructive" : "text-secondary"}`}
+          >
+            {status?.message}
+          </p>
+        </form>
       </div>
     </section>
   )
