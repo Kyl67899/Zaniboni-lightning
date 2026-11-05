@@ -1,274 +1,136 @@
 "use client"
 
-import { useState, useMemo } from "react"
-import { Header } from "@/components/header"
-import { Footer } from "@/components/footer"
-import { ProductFilters } from "@/components/product-filters"
+import { useMemo, useState } from "react"
+import { Search, X } from "lucide-react"
+import { CtaBand } from "@/components/cta-band"
+import { PageHero } from "@/components/page-hero"
 import { ProductCard } from "@/components/product-card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Badge } from "@/components/ui/badge"
-import { Search, Grid3x3, LayoutGrid, X, SlidersHorizontal } from "lucide-react"
-import { products } from "@/data/products"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { categories, products } from "@/data/products"
+import { site } from "@/lib/site"
+
+const ALL = "All Products"
 
 export default function ProductsPage() {
-  const [searchQuery, setSearchQuery] = useState("")
-  const [selectedCategories, setSelectedCategories] = useState<string[]>(["All Products"])
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 4000])
-  const [sortBy, setSortBy] = useState("name-asc")
-  const [gridCols, setGridCols] = useState<3 | 4>(3)
+  const [query, setQuery] = useState("")
+  const [category, setCategory] = useState(ALL)
+  const [sort, setSort] = useState("name-asc")
 
-  // Filter products
-  const filteredProducts = useMemo(() => {
-    const filtered = products.filter((product) => {
-      const matchesSearch =
-        product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        product.description.toLowerCase().includes(searchQuery.toLowerCase())
+  const filtered = useMemo(() => {
+    const term = query.trim().toLowerCase()
+    return products
+      .filter((product) => category === ALL || product.category === category)
+      .filter(
+        (product) =>
+          !term ||
+          product.name.toLowerCase().includes(term) ||
+          product.description.toLowerCase().includes(term) ||
+          product.category.toLowerCase().includes(term),
+      )
+      .sort((a, b) => {
+        if (sort === "price-asc") return a.price - b.price
+        if (sort === "price-desc") return b.price - a.price
+        return sort === "name-desc" ? b.name.localeCompare(a.name) : a.name.localeCompare(b.name)
+      })
+  }, [query, category, sort])
 
-      const matchesCategory =
-        selectedCategories.includes("All Products") || selectedCategories.includes(product.category)
-
-      const matchesPrice = product.price >= priceRange[0] && product.price <= priceRange[1]
-
-      return matchesSearch && matchesCategory && matchesPrice
-    })
-
-    // Sort products
-    switch (sortBy) {
-      case "name-asc":
-        filtered.sort((a, b) => a.name.localeCompare(b.name))
-        break
-      case "name-desc":
-        filtered.sort((a, b) => b.name.localeCompare(a.name))
-        break
-      case "price-asc":
-        filtered.sort((a, b) => a.price - b.price)
-        break
-      case "price-desc":
-        filtered.sort((a, b) => b.price - a.price)
-        break
-    }
-
-    return filtered
-  }, [searchQuery, selectedCategories, priceRange, sortBy])
-
-  // Calculate active filters
-  const activeFilterCount = useMemo(() => {
-    let count = 0
-    if (!selectedCategories.includes("All Products") && selectedCategories.length > 0) count++
-    if (priceRange[0] !== 0 || priceRange[1] !== 4000) count++
-    return count
-  }, [selectedCategories, priceRange])
-
-  const handleCategoryChange = (category: string) => {
-    if (category === "All Products") {
-      setSelectedCategories(["All Products"])
-    } else {
-      const newCategories = selectedCategories.filter((c) => c !== "All Products")
-      if (selectedCategories.includes(category)) {
-        const filtered = newCategories.filter((c) => c !== category)
-        setSelectedCategories(filtered.length === 0 ? ["All Products"] : filtered)
-      } else {
-        setSelectedCategories([...newCategories, category])
-      }
-    }
-  }
-
-  const handleClearFilters = () => {
-    setSelectedCategories(["All Products"])
-    setPriceRange([0, 4000])
-    setSearchQuery("")
-  }
-
-  const removeCategory = (category: string) => {
-    const newCategories = selectedCategories.filter((c) => c !== category)
-    setSelectedCategories(newCategories.length === 0 ? ["All Products"] : newCategories)
+  const clearFilters = () => {
+    setQuery("")
+    setCategory(ALL)
   }
 
   return (
-    <main className="min-h-screen bg-background">
-      {/* Hero Section */}
-      <section className="pt-32 pb-12 bg-muted/30">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl font-serif font-bold mb-4 text-balance">All Products</h1>
-            <p className="text-lg text-muted-foreground text-pretty">
-              Explore our complete collection of premium architectural lighting solutions. From commercial spaces to
-              residential elegance, find the perfect fixture for your project.
-            </p>
-          </div>
-        </div>
-      </section>
+    <main id="main">
+      <PageHero
+        eyebrow="Products"
+        title="The collection"
+        description={`Architectural lighting for commercial, retail, hospitality and residential projects, made in our ${site.address.city} workshop.`}
+      />
 
-      {/* Main Content */}
-      <section className="py-12">
-        <div className="container mx-auto px-4 lg:px-8">
-          <div className="flex flex-col lg:flex-row gap-8">
-            {/* Desktop Filters Sidebar */}
-            <aside className="hidden lg:block w-64 shrink-0">
-              <div className="sticky top-24 bg-card border border-border rounded-lg p-6">
-                <ProductFilters
-                  selectedCategories={selectedCategories}
-                  priceRange={priceRange}
-                  onCategoryChange={handleCategoryChange}
-                  onPriceChange={setPriceRange}
-                  onClearFilters={handleClearFilters}
-                  activeFilterCount={activeFilterCount}
-                />
-              </div>
-            </aside>
-
-            {/* Products Grid */}
-            <div className="flex-1 space-y-6">
-              {/* Search and Controls */}
-              <div className="space-y-4">
-                <div className="flex flex-col md:flex-row gap-4">
-                  {/* Search */}
-                  <div className="relative flex-1">
-                    <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
-                    <Input
-                      type="text"
-                      placeholder="Search products..."
-                      value={searchQuery}
-                      onChange={(e) => setSearchQuery(e.target.value)}
-                      className="pl-10"
-                    />
-                  </div>
-
-                  {/* Sort */}
-                  <Select value={sortBy} onValueChange={setSortBy}>
-                    <SelectTrigger className="w-full md:w-[200px]">
-                      <SelectValue placeholder="Sort by" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="name-asc">Name: A to Z</SelectItem>
-                      <SelectItem value="name-desc">Name: Z to A</SelectItem>
-                      <SelectItem value="price-asc">Price: Low to High</SelectItem>
-                      <SelectItem value="price-desc">Price: High to Low</SelectItem>
-                    </SelectContent>
-                  </Select>
-
-                  {/* Mobile Filter Button */}
-                  <Sheet>
-                    <SheetTrigger asChild>
-                      <Button variant="outline" className="lg:hidden bg-transparent">
-                        <SlidersHorizontal className="h-4 w-4 mr-2" />
-                        Filters
-                        {activeFilterCount > 0 && (
-                          <Badge variant="secondary" className="ml-2">
-                            {activeFilterCount}
-                          </Badge>
-                        )}
-                      </Button>
-                    </SheetTrigger>
-                    <SheetContent side="left" className="w-80">
-                      <div className="py-6">
-                        <ProductFilters
-                          selectedCategories={selectedCategories}
-                          priceRange={priceRange}
-                          onCategoryChange={handleCategoryChange}
-                          onPriceChange={setPriceRange}
-                          onClearFilters={handleClearFilters}
-                          activeFilterCount={activeFilterCount}
-                        />
-                      </div>
-                    </SheetContent>
-                  </Sheet>
-
-                  {/* Grid Toggle */}
-                  <div className="hidden md:flex items-center gap-1 border border-border rounded-lg p-1 bg-card">
-                    <Button
-                      variant={gridCols === 3 ? "secondary" : "ghost"}
-                      size="sm"
-                      className="h-8 w-8 p-0"
-                      onClick={() => setGridCols(3)}
-                      aria-label="3 column grid"
-                    >
-                      <Grid3x3 className="h-4 w-4" />
-                    </Button>
-                    <Button
-                      variant={gridCols === 4 ? "secondary" : "ghost"}
-                      size="sm"
-                      className="h-8 w-8 p-0"
-                      onClick={() => setGridCols(4)}
-                      aria-label="4 column grid"
-                    >
-                      <LayoutGrid className="h-4 w-4" />
-                    </Button>
-                  </div>
-                </div>
-
-                {/* Active Filters */}
-                {(activeFilterCount > 0 || searchQuery) && (
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="text-sm text-muted-foreground">Active filters:</span>
-                    {searchQuery && (
-                      <Badge variant="secondary" className="gap-1">
-                        Search: {searchQuery}
-                        <button onClick={() => setSearchQuery("")} className="ml-1 hover:text-destructive">
-                          <X className="h-3 w-3" />
-                        </button>
-                      </Badge>
-                    )}
-                    {!selectedCategories.includes("All Products") &&
-                      selectedCategories.map((category) => (
-                        <Badge key={category} variant="secondary" className="gap-1">
-                          {category}
-                          <button onClick={() => removeCategory(category)} className="ml-1 hover:text-destructive">
-                            <X className="h-3 w-3" />
-                          </button>
-                        </Badge>
-                      ))}
-                    {(priceRange[0] !== 0 || priceRange[1] !== 4000) && (
-                      <Badge variant="secondary" className="gap-1">
-                        ${priceRange[0]} - ${priceRange[1]}
-                        <button onClick={() => setPriceRange([0, 4000])} className="ml-1 hover:text-destructive">
-                          <X className="h-3 w-3" />
-                        </button>
-                      </Badge>
-                    )}
-                  </div>
-                )}
-
-                {/* Results Count */}
-                <div className="flex items-center justify-between text-sm text-muted-foreground">
-                  <p>
-                    Showing {filteredProducts.length} {filteredProducts.length === 1 ? "product" : "products"}
-                  </p>
-                </div>
-              </div>
-
-              {/* Products Grid */}
-              {filteredProducts.length > 0 ? (
-                <div
-                  className={`grid gap-6 ${
-                    gridCols === 3
-                      ? "grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
-                      : "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"
-                  }`}
+      <section className="py-12 md:py-16">
+        <div className="shell">
+          <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
+            <div className="flex flex-wrap gap-2" role="group" aria-label="Filter by category">
+              {categories.map((name) => (
+                <button
+                  key={name}
+                  type="button"
+                  className="pill"
+                  aria-pressed={category === name}
+                  onClick={() => setCategory(name)}
                 >
-                  {filteredProducts.map((product) => (
-                    <ProductCard key={product.id} product={product} />
-                  ))}
-                </div>
-              ) : (
-                <div className="text-center py-16">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-muted mb-4">
-                    <Search className="h-8 w-8 text-muted-foreground" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-2">No products found</h3>
-                  <p className="text-muted-foreground mb-4">Try adjusting your filters or search query</p>
-                  <Button onClick={handleClearFilters} variant="outline">
-                    Clear all filters
-                  </Button>
-                </div>
-              )}
+                  {name}
+                </button>
+              ))}
+            </div>
+
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <div className="relative sm:w-64">
+                <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+                <label htmlFor="product-search" className="sr-only">
+                  Search products
+                </label>
+                <Input
+                  id="product-search"
+                  type="search"
+                  placeholder="Search"
+                  value={query}
+                  onChange={(event) => setQuery(event.target.value)}
+                  className="h-10 bg-transparent pl-9 pr-9"
+                />
+                {query && (
+                  <button
+                    type="button"
+                    onClick={() => setQuery("")}
+                    aria-label="Clear search"
+                    className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-foreground"
+                  >
+                    <X className="h-4 w-4" />
+                  </button>
+                )}
+              </div>
+              <Select value={sort} onValueChange={setSort}>
+                <SelectTrigger aria-label="Sort products" className="h-10 w-full bg-transparent sm:w-44">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="name-asc">Name, A–Z</SelectItem>
+                  <SelectItem value="name-desc">Name, Z–A</SelectItem>
+                  <SelectItem value="price-asc">Price, low to high</SelectItem>
+                  <SelectItem value="price-desc">Price, high to low</SelectItem>
+                </SelectContent>
+              </Select>
             </div>
           </div>
+
+          <p role="status" className="mt-8 text-sm text-muted-foreground">
+            {filtered.length} {filtered.length === 1 ? "product" : "products"}
+          </p>
+
+          {filtered.length > 0 ? (
+            <div className="mt-8 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
+              {filtered.map((product) => (
+                <ProductCard key={product.id} product={product} />
+              ))}
+            </div>
+          ) : (
+            <div className="py-24 text-center">
+              <h2 className="text-3xl font-light">No products match your search</h2>
+              <p className="mt-3 text-muted-foreground">Try a different term, or clear your filters.</p>
+              <Button onClick={clearFilters} variant="outline" size="lg" className="mt-8 bg-transparent">
+                Clear filters
+              </Button>
+            </div>
+          )}
         </div>
       </section>
+
+      <CtaBand
+        title="Looking for something specific?"
+        description="We design and manufacture in-house, so our team can help with custom configurations for your project."
+      />
     </main>
   )
 }

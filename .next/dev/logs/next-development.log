@@ -1,8 +1,0 @@
-{"timestamp":"00:00:01.119","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:01.119","source":"Server","level":"LOG","message":"✓ Generated AGENTS.md for AI agents. Set `agentRules: false` in next.config to disable."}
-{"timestamp":"00:00:11.617","source":"Server","level":"LOG","message":"  Reload env: .env.local"}
-{"timestamp":"00:00:15.594","source":"Server","level":"LOG","message":"  Reload env: .env.local"}
-{"timestamp":"00:00:16.849","source":"Server","level":"LOG","message":"  Reload env: .env.local"}
-{"timestamp":"00:00:19.532","source":"Server","level":"LOG","message":"  Reload env: .env.local"}
-{"timestamp":"00:02:07.220","source":"Server","level":"LOG","message":"  Reload env: .env.local"}
-{"timestamp":"00:02:12.964","source":"Server","level":"LOG","message":"  Reload env: .env.local"}

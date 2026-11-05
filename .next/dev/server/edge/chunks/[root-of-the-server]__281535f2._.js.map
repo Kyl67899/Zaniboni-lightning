@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Documents/GitHub/Zaniboni-lightning/middleware.ts"],"sourcesContent":["import { NextResponse } from \"next/server\"\nimport type { NextRequest } from \"next/server\"\n\nexport function middleware(request: NextRequest) {\n  const { pathname } = request.nextUrl\n\n  // Allow all admin routes to pass through\n  // Authentication is now handled client-side with localStorage\n  return NextResponse.next()\n}\n\nexport const config = {\n  matcher: \"/admin/:path*\",\n}\n"],"names":[],"mappings":";;;;;;AAAA;AAAA;;AAGO,SAAS,WAAW,OAAoB;IAC7C,MAAM,EAAE,QAAQ,EAAE,GAAG,QAAQ,OAAO;IAEpC,yCAAyC;IACzC,8DAA8D;IAC9D,OAAO,gPAAY,CAAC,IAAI;AAC1B;AAEO,MAAM,SAAS;IACpB,SAAS;AACX"}}]
-}

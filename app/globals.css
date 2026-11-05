@@ -2,33 +2,36 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+/* Short screens, mainly phones in landscape. */
+@custom-variant short (@media (max-height: 500px));
 
 :root {
-  --background: oklch(0.99 0.005 85);
-  --foreground: oklch(0.15 0.01 60);
-  --card: oklch(0.985 0.005 85);
-  --card-foreground: oklch(0.15 0.01 60);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.15 0.01 60);
-  --primary: oklch(0.2 0.02 60);
-  --primary-foreground: oklch(0.99 0.005 85);
-  --secondary: oklch(0.55 0.08 40);
-  --secondary-foreground: oklch(0.99 0.005 85);
-  --muted: oklch(0.94 0.005 85);
-  --muted-foreground: oklch(0.5 0.01 60);
-  --accent: oklch(0.65 0.15 40);
-  --accent-foreground: oklch(0.99 0.005 85);
-  --destructive: oklch(0.577 0.245 27.325);
+  --nav-height: 4rem;
+  --background: oklch(0.985 0.004 85);
+  --foreground: oklch(0.18 0.008 70);
+  --card: oklch(0.985 0.004 85);
+  --card-foreground: oklch(0.18 0.008 70);
+  --popover: oklch(0.995 0.002 85);
+  --popover-foreground: oklch(0.18 0.008 70);
+  --primary: oklch(0.18 0.008 70);
+  --primary-foreground: oklch(0.985 0.004 85);
+  --secondary: oklch(0.44 0.05 70);
+  --secondary-foreground: oklch(0.985 0.004 85);
+  --muted: oklch(0.955 0.005 85);
+  --muted-foreground: oklch(0.45 0.01 70);
+  --accent: oklch(0.78 0.085 80);
+  --accent-foreground: oklch(0.18 0.008 70);
+  --destructive: oklch(0.5 0.19 27);
   --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.88 0.005 85);
-  --input: oklch(0.88 0.005 85);
-  --ring: oklch(0.55 0.08 40);
+  --border: oklch(0.89 0.006 85);
+  --input: oklch(0.83 0.006 85);
+  --ring: oklch(0.44 0.05 70);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
-  --radius: 0.5rem;
+  --radius: 0.125rem;
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
   --sidebar-primary: oklch(0.205 0 0);
@@ -39,44 +42,21 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.55 0.08 40);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.65 0.15 40);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.985 0 0);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
+@media (min-width: 1024px) {
+  :root {
+    --nav-height: 5rem;
+  }
+}
+
+@media (max-height: 500px) {
+  :root {
+    --nav-height: 3.25rem;
+  }
 }
 
 @theme inline {
-  --font-sans: "Inter", "Inter Fallback", system-ui, sans-serif;
-  --font-serif: "Playfair Display", "Playfair Display Fallback", serif;
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), Georgia, serif;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -101,10 +81,10 @@
   --color-chart-3: var(--chart-3);
   --color-chart-4: var(--chart-4);
   --color-chart-5: var(--chart-5);
-  --radius-sm: calc(var(--radius) - 4px);
-  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 1px);
+  --radius-md: var(--radius);
   --radius-lg: var(--radius);
-  --radius-xl: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 2px);
   --color-sidebar: var(--sidebar);
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar-primary: var(--sidebar-primary);
@@ -119,37 +99,86 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: var(--nav-height);
+  }
   body {
     @apply bg-background text-foreground;
+    -webkit-font-smoothing: antialiased;
+    overflow-wrap: break-word;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+    text-wrap: balance;
+  }
+  ::selection {
+    background: var(--accent);
+    color: var(--accent-foreground);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
   }
 }
 
-.animate-fade-in {
-  animation: fadeIn 0.8s ease-in;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
+@layer components {
+  .shell {
+    @apply mx-auto w-full max-w-[1320px] px-5 sm:px-8 lg:px-12;
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  .section {
+    @apply py-20 md:py-28 lg:py-36;
   }
-}
-
-/* Added casino slot machine spin animation */
-.animate-slot-spin {
-  animation: slotSpin 0.1s ease-in-out infinite;
-}
-
-@keyframes slotSpin {
-  0%,
-  100% {
-    transform: translateY(0);
+  .eyebrow {
+    @apply text-[11px] font-medium uppercase tracking-[0.28em];
   }
-  50% {
-    transform: translateY(-2px);
+  .display {
+    @apply font-serif text-5xl font-light leading-[1.02] tracking-[-0.02em] sm:text-6xl lg:text-7xl;
+  }
+  .heading {
+    @apply font-serif text-4xl font-light leading-[1.08] tracking-[-0.015em] md:text-5xl;
+  }
+  .lede {
+    @apply text-lg leading-relaxed text-muted-foreground md:text-xl;
+    text-wrap: pretty;
+  }
+  .text-link {
+    @apply underline decoration-foreground/30 decoration-1 underline-offset-4 transition-colors hover:decoration-foreground;
+  }
+  .pill {
+    @apply border border-border px-4 py-2 text-xs tracking-wide text-muted-foreground transition-colors hover:border-foreground hover:text-foreground aria-pressed:border-foreground aria-pressed:bg-foreground aria-pressed:text-background;
+  }
+
+  .prose-zl {
+    @apply max-w-[68ch] text-[17px] leading-[1.8] text-foreground/85;
+  }
+  .prose-zl > * + * {
+    @apply mt-6;
+  }
+  .prose-zl h2 {
+    @apply mt-14 text-3xl text-foreground md:text-4xl;
+  }
+  .prose-zl h3 {
+    @apply mt-10 text-2xl text-foreground;
+  }
+  .prose-zl ul,
+  .prose-zl ol {
+    @apply space-y-2 pl-5;
+  }
+  .prose-zl ul {
+    @apply list-disc;
+  }
+  .prose-zl ol {
+    @apply list-decimal;
+  }
+  .prose-zl a {
+    @apply underline decoration-foreground/30 underline-offset-4 hover:decoration-foreground;
   }
 }

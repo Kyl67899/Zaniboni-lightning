@@ -133,7 +133,7 @@ export const products: Product[] = [
     description: "Indirect lighting solution for elegant ambient illumination in architectural applications.",
     image: "/architectural-cove-lighting-led-strip.jpg",
     category: "Architectural",
-    price: 599,
+    price: 699,
     specs: {
       wattage: "12W/ft",
       lumen: "1200lm/ft",
@@ -149,7 +149,7 @@ export const products: Product[] = [
     description: "Multi-pendant arrangement perfect for dining areas and commercial spaces.",
     image: "/modern-pendant-cluster-dining-lighting.jpg",
     category: "Residential",
-    price: 1899,
+    price: 1999,
     specs: {
       wattage: "8W per pendant",
       lumen: "800lm per pendant",
@@ -181,7 +181,7 @@ export const products: Product[] = [
     description: "Weather-resistant exterior lighting for commercial buildings and pathways.",
     image: "/commercial-outdoor-wall-pack-led-lighting.jpg",
     category: "Commercial",
-    price: 549,
+    price: 349,
     specs: {
       wattage: "30W",
       lumen: "3600lm",
@@ -213,7 +213,7 @@ export const products: Product[] = [
     description: "Modern floor lamps with adjustable arms for residential and office environments.",
     image: "/modern-architectural-floor-lamp-adjustable.jpg",
     category: "Residential",
-    price: 899,
+    price: 999,
     specs: {
       wattage: "15W",
       lumen: "1500lm",

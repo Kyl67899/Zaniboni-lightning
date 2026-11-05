@@ -1,11 +1,8 @@
 "use client"
 
 import type React from "react"
-
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
 import {
   Dialog,
   DialogContent,
@@ -14,176 +11,140 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog"
-import { Mail, CheckCircle2, AlertCircle } from "lucide-react"
+import { Input } from "@/components/ui/input"
+import { Label } from "@/components/ui/label"
+import { Textarea } from "@/components/ui/textarea"
 
-interface ContactSalesDialogProps {
-  productId: string
-  productName: string
-}
+const emptyForm = { name: "", email: "", phone: "", message: "", website: "" }
 
-export function ContactSalesDialog({ productId, productName }: ContactSalesDialogProps) {
+export function ContactSalesDialog({ productId, productName }: { productId: string; productName: string }) {
   const [open, setOpen] = useState(false)
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    message: "",
-  })
+  const [form, setForm] = useState(emptyForm)
   const [isLoading, setIsLoading] = useState(false)
-  const [status, setStatus] = useState<"idle" | "success" | "error">("idle")
-  const [message, setMessage] = useState("")
+  const [status, setStatus] = useState<{ type: "success" | "error"; message: string } | null>(null)
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
+  const update = (field: keyof typeof emptyForm) => (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) =>
+    setForm((current) => ({ ...current, [field]: event.target.value }))
+
+  const handleOpenChange = (next: boolean) => {
+    setOpen(next)
+    if (!next) setStatus(null)
+  }
+
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault()
     setIsLoading(true)
-    setStatus("idle")
-    setMessage("")
+    setStatus(null)
 
     try {
       const response = await fetch("/api/contact-sales", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          ...formData,
-          productId,
-          productName,
-        }),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...form, productId }),
       })
-
       const data = await response.json()
 
       if (response.ok) {
-        setStatus("success")
-        setMessage(data.message || "Sales inquiry sent successfully!")
-        setFormData({ name: "", email: "", phone: "", message: "" })
-
-        // Close dialog after 2 seconds on success
-        setTimeout(() => {
-          setOpen(false)
-          setStatus("idle")
-          setMessage("")
-        }, 2000)
+        setStatus({ type: "success", message: data.message })
+        setForm(emptyForm)
       } else {
-        setStatus("error")
-        setMessage(data.error || "Failed to send inquiry. Please try again.")
+        setStatus({ type: "error", message: data.error })
       }
-    } catch (error) {
-      setStatus("error")
-      setMessage("Network error. Please check your connection and try again.")
+    } catch {
+      setStatus({ type: "error", message: "Please check your connection and try again." })
     } finally {
       setIsLoading(false)
     }
   }
 
   return (
-    <Dialog open={open} onOpenChange={setOpen}>
+    <Dialog open={open} onOpenChange={handleOpenChange}>
       <DialogTrigger asChild>
-        <Button size="lg" className="flex-1 bg-secondary hover:bg-secondary/90">
-          <Mail className="mr-2 h-5 w-5" />
-          Contact Sales
+        <Button size="lg" className="w-full">
+          Request a Quote
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[500px]">
+      <DialogContent className="max-h-[90svh] overflow-y-auto sm:max-w-[520px]">
         <DialogHeader>
-          <DialogTitle>Contact Sales</DialogTitle>
+          <DialogTitle className="text-3xl font-light">Request a quote</DialogTitle>
           <DialogDescription>
-            Get in touch with our sales team about <strong>{productName}</strong>. We'll respond within 24 hours with
-            pricing and availability.
+            Tell us about your project and we’ll get back to you about <strong>{productName}</strong> as quickly as we
+            can.
           </DialogDescription>
         </DialogHeader>
 
-        <form onSubmit={handleSubmit} className="space-y-4 mt-4">
+        <form onSubmit={handleSubmit} className="relative mt-2 space-y-4">
           <div className="space-y-2">
-            <label htmlFor="sales-name" className="text-sm font-medium">
-              Name *
-            </label>
+            <Label htmlFor="sales-name">Name</Label>
             <Input
               id="sales-name"
-              placeholder="Your name"
-              value={formData.name}
-              onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+              autoComplete="name"
+              className="h-11"
+              value={form.name}
+              onChange={update("name")}
               disabled={isLoading}
               required
             />
           </div>
-
           <div className="space-y-2">
-            <label htmlFor="sales-email" className="text-sm font-medium">
-              Email *
-            </label>
+            <Label htmlFor="sales-email">Email</Label>
             <Input
               id="sales-email"
               type="email"
-              placeholder="your@email.com"
-              value={formData.email}
-              onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+              autoComplete="email"
+              className="h-11"
+              value={form.email}
+              onChange={update("email")}
               disabled={isLoading}
               required
             />
           </div>
-
           <div className="space-y-2">
-            <label htmlFor="sales-phone" className="text-sm font-medium">
-              Phone
-            </label>
+            <Label htmlFor="sales-phone">
+              Phone <span className="font-normal text-muted-foreground">(optional)</span>
+            </Label>
             <Input
               id="sales-phone"
               type="tel"
-              placeholder="+1 (555) 000-0000"
-              value={formData.phone}
-              onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
+              autoComplete="tel"
+              className="h-11"
+              value={form.phone}
+              onChange={update("phone")}
               disabled={isLoading}
             />
           </div>
-
           <div className="space-y-2">
-            <label htmlFor="sales-message" className="text-sm font-medium">
-              Message *
-            </label>
+            <Label htmlFor="sales-message">Project details</Label>
             <Textarea
               id="sales-message"
-              placeholder="Tell us about your needs (quantity, timeline, specific requirements...)"
+              placeholder="Quantity, timeline, configuration…"
               rows={4}
-              value={formData.message}
-              onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+              className="min-h-28"
+              value={form.message}
+              onChange={update("message")}
               disabled={isLoading}
               required
+              maxLength={5000}
             />
           </div>
+          <input
+            type="text"
+            name="website"
+            tabIndex={-1}
+            autoComplete="off"
+            aria-hidden="true"
+            value={form.website}
+            onChange={update("website")}
+            className="absolute -left-[9999px] h-0 w-0 opacity-0"
+          />
 
-          {message && (
-            <div
-              className={`p-3 rounded-lg flex items-start gap-2 text-sm ${
-                status === "success"
-                  ? "bg-green-50 text-green-900 border border-green-200"
-                  : "bg-red-50 text-red-900 border border-red-200"
-              }`}
-            >
-              {status === "success" ? (
-                <CheckCircle2 className="h-4 w-4 flex-shrink-0 mt-0.5" />
-              ) : (
-                <AlertCircle className="h-4 w-4 flex-shrink-0 mt-0.5" />
-              )}
-              <span>{message}</span>
-            </div>
-          )}
+          <p role="status" className={`min-h-5 text-sm ${status?.type === "error" ? "text-destructive" : "text-secondary"}`}>
+            {status?.message}
+          </p>
 
-          <div className="flex gap-3 pt-2">
-            <Button
-              type="button"
-              variant="outline"
-              onClick={() => setOpen(false)}
-              disabled={isLoading}
-              className="flex-1"
-            >
-              Cancel
-            </Button>
-            <Button type="submit" disabled={isLoading} className="flex-1 bg-secondary hover:bg-secondary/90">
-              {isLoading ? "Sending..." : "Send Inquiry"}
-            </Button>
-          </div>
+          <Button type="submit" size="lg" disabled={isLoading} className="w-full">
+            {isLoading ? "Sending…" : "Send Request"}
+          </Button>
         </form>
       </DialogContent>
     </Dialog>
