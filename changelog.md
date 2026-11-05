@@ -60,7 +60,6 @@
 
 ### Removed
 
-- The unused `firebase` package and `firebase.ts`, which clears all 4 high-severity audit warnings.
 - Unused `calendar`, `chart` and `resizable` UI components and their packages.
 - `npm audit fix --force` from the npm scripts.
 - The `lint` script, because `typescript-eslint` doesn't support TypeScript 7 yet.
