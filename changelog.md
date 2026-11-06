@@ -1,5 +1,9 @@
 # Changelog
 
+## Released (2026-11-06)
+
+- Removed exposed secret API key
+
 ## Released (2026-11-05)
 
 ### Navbar

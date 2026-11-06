@@ -2,7 +2,7 @@ import { Resend } from "resend"
 import { site } from "@/lib/site"
 
 // Where enquiries and replies are delivered. Set CONTACT_NOTIFICATION_EMAIL to change it.
-const notificationEmail = process.env.CONTACT_NOTIFICATION_EMAIL || "shuttle876@gmail.com"
+const notificationEmail = process.env.CONTACT_NOTIFICATION_EMAIL
 
 export const EMAIL_CONFIG = {
   // Resend's shared test sender only delivers to the Resend account's own address. Set EMAIL_FROM to a domain you own.
