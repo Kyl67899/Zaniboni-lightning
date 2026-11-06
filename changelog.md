@@ -3,6 +3,7 @@
 ## Released (2026-11-06)
 
 - Removed exposed secret API key
+- Added needed workflow
 
 ## Released (2026-11-05)
 
