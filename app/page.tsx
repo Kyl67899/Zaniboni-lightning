@@ -39,7 +39,7 @@ export default function Home() {
 
       <section className="section">
         <div className="shell grid items-center gap-12 lg:grid-cols-2 lg:gap-24">
-          <Reveal className="relative aspect-[4/5] overflow-hidden bg-muted">
+          <Reveal className="relative aspect-4/5 overflow-hidden bg-muted">
             <Image
               src="/museum-quality-track-lighting-led.jpg"
               alt="Adjustable track lighting head with a precision lens"

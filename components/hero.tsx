@@ -21,7 +21,7 @@ export function Hero() {
         sizes="100vw"
         className="object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/45 to-black/55" />
+      <div className="absolute inset-0 bg-linear-to-t from-black/85 via-black/45 to-black/55" />
 
       <div className="shell relative pb-10 pt-36 md:pb-14">
         <Reveal>
